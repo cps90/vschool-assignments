@@ -4,9 +4,12 @@ h1 {
 }
 
 #main-article {
-  display: block;
+  display: inline-block;
   width: auto;
   height: auto;
+}
+.main-article {
+  position: absolute;
 }
 
 .main-article-header {
@@ -14,15 +17,16 @@ h1 {
     display: inline-block;
     width: 60%;
     height: inherit;
-    position: absolute;
+    float: right;
     font-weight: bold;
 }
 
-.main-article-body {
+.main-aritcle-body {
     display: inline-block;
     width: 60%;
-    height: 260px;
-    position: absolute;
+    height: 300px;
+    float: right;
+    overflow-y: scroll;
 }
 
 .main-article-image {
@@ -55,4 +59,9 @@ p.item-card {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.classifieds-section {
+    display: inline-block;
+    margin-top: 50px;
 }
