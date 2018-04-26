@@ -14,35 +14,43 @@
         <h1>Mario's Pest Control</h1>
   </div>
   <div class="baddies">
+  <form name="baddiesForm">
     <div class="goombas">
         <img class="goombaImage" src="image_goomba.jpg">
         <p class="goombaPrice">Worth 5 Coins Each</p>
-        <form class=goombaForm>
+        <div class="goombaForm">
            <input name="goombas" placeholder="Number of Goombas" step="0.5"  type="number"/>
-        </form>
+        </div>
     </div>
 
     <div class="bobombs">
         <img class="bobombImage" src="image_bobomb.jpg">
         <p class="bobombPrice">Worth 7 Coins Each</p>
-        <form class=bobombForm>
+        <div class="bobombForm">
           <input name="bobombs" placeholder="Number of Bo-Bombs" step="0.5" type="number"/>
-        </form>
+        </div>
     </div>
 
     <div class="cheepCheeps">
         <img class="cheepCheepImage" src="image_cheepcheep.jpg">
         <p class="cheepCheepPrice">Worth 11 Coins Each</p>
-        <form class=cheepCheepForm>
+        <div class="cheepCheepForm">
           <input name="cheepCheeps" placeholder="Number of Cheep-Cheeps" step="0.5" type="number"/>
-        </form>
+        </div>
     </div>
+  <div class=submitButton>
+      <button>SUBMIT</button>
   </div>
-
-    <div class=total>
+</form>
+</div>
+  <div class="total">
+    <p id="totalCoins">
+    </p>
+  </div>
+    <!-- <div class=total>
         <form class="totalCoins" name="totalCoinsForm">
         TOTAL COINS EARNED:  <input name="totalCoins" type="number">
-    </div>
+    </div> -->
 
     <footer>
         <ul>

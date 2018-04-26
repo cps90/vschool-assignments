@@ -142,6 +142,25 @@ body {
   letter-spacing: 3px;
 }
 
+.submitButton {
+  height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
+
+
+button {
+  position: absolute;
+  left: 44%;
+  font-size: 35px;
+  font-family: superPlumberBrothers;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
 footer {
   background-color: #6A8BFC;
   margin-top: 25px;
