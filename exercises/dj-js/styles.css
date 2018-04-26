@@ -1,0 +1,16 @@
+#big-box {
+  width: 500px;
+  height: 500px;
+  margin: 200px auto;
+  border: 10px solid black;
+  background-color: white;
+  position: relative;
+}
+
+/* #click-me {
+  position: absolute;
+  top: 190px;
+  left: 112.5px;
+  padding: 15px;
+  border: 5px dotted black;
+} */

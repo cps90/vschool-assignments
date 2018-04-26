@@ -1,0 +1,169 @@
+* {
+  border-sizing: border-box;
+}
+@font-face {
+font-family: "Super Plumber Brothers";
+src: url("superPlumberBrothers.ttf") format("ttf")
+}
+
+body {
+  background-color: #00A62D;
+}
+.pageHeader {
+  display: block;
+  height: relative;
+  width: 900px;
+  background-image: url("image_header.jpg");
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.pageHeader h1 {
+  color: #FFFFFF;
+  font-family: superPlumberBrothers;
+  padding: 100px;
+  text-align: center;
+  font-size: 5em;
+  padding: 120px 100px 100px 100px;
+  letter-spacing: 3px;
+}
+.baddies {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.goombas {
+  position: absolute;
+  height: 300px;
+  margin-top: 75px;
+  left: 0;
+  top: 0;
+}
+
+.goombaImage {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+.goombaPrice {
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+  text-align: center;
+  width: 200px;
+  font-family: 'Cute Font';
+  font-size: 1.75em;
+}
+
+.goombaForm {
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  margin: 0 15px;
+}
+
+.bobombs {
+  position: absolute;
+  height: 300px;
+  margin-top: 75px;
+  left: 350px;
+  top: 0;
+}
+
+.bobombImage {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.bobombPrice {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  bottom: 30px;
+  width: 200px;
+  text-align: center;
+  font-family: 'Cute Font';
+  font-size: 1.75em;
+}
+
+.bobombForm {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  bottom: 0px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+.cheepCheeps {
+  position: absolute;
+  height: 300px;
+  margin-top: 75px;
+  right: 200px;
+  top: 0;
+}
+
+
+.cheepCheepImage {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+.cheepCheepPrice {
+  position: absolute;
+  display: inline-block;
+  bottom: 30px;
+  text-align: center;
+  width: 200px;
+  font-family: 'Cute Font';
+  font-size: 1.75em;
+}
+
+.cheepCheepForm {
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  margin: 0 15px;
+}
+
+.total {
+  margin: 0px auto;
+  padding: 20px;
+  display: block;
+  width: 900px;
+  text-align: center;
+  font-family: superPlumberBrothers;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+}
+
+footer {
+  background-color: #6A8BFC;
+  margin-top: 25px;
+}
+ul {
+  display: inline-block;
+  width: 900px;
+  position: absolute;
+  left: 175px;
+  background-color: #6A8BFC;
+  width: 900px;
+  padding: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    float: none;
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 25px;
+}
+input[type=number] {
+  padding: 10px 20px;
+}

@@ -1,0 +1,83 @@
+.flag {
+  width: 500px;
+  height: 300px;
+  margin: 5px auto;
+  border: 2px solid black;
+  display: block;
+  position: relative;
+}
+
+.french-blue {
+  width: 33.3%;
+  height: 300px;
+  background-color: #002A90;
+  position: absolute;
+  left: 0;
+}
+
+.french-white {
+  width: 33.3%;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 33.3%;
+}
+
+.french-red {
+  width: 33.3%;
+  height: 300px;
+  background-color: #FF2C3D;
+  position: absolute;
+  right: 0;
+}
+
+
+.german-black {
+  width: 500px;
+  height: 100px;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+}
+
+.german-red {
+  width: 500px;
+  height: 100px;
+  background-color: #EE0712;
+  position: absolute;
+  top: 33.3%;
+}
+
+.german-yellow {
+  width: 500px;
+  height: 100px;
+  background-color: #FFCC3F;
+  position: absolute;
+  bottom: 0;
+}
+
+.solid-red-background {
+  width: 500px;
+  height: 300px;
+  background-color: #EE0712;
+  position: absolute;
+  top: 0;
+}
+
+.vertical-bar {
+  height: 200px;
+  width: 60px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50px;
+  left: 216px;
+}
+
+.horizontal-bar {
+  height: 60px;
+  width: 200px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 216px;
+  left: 50px;
+}
