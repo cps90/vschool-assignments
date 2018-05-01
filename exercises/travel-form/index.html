@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Travel Form</title>
+</head>
+
+<body>
+  <header>
+    <h1>Swedenburg Airlines</h1>
+  </header>
+  <div class="textbox">
+    <form name="userInfo">
+      <p>Confirm your reservation by entering your information below</p>
+      <div class="firstName">
+        First name: <input name="firstName" type="text"/>
+      </div>
+      <br>
+      <div class="lastName">
+        Last name: <input name="lastName" type="text" />
+      </div>
+      <br>
+      <div class="age">
+        Age: <input name="age" type="number" />
+      </div>
+      <br>
+      <div class="gender">
+        Gender: Female <input value="female" type="radio" name="gender" /> Male <input value="male" type="radio" name="gender" /> Non-conforming <input value="non-conforming" type="radio" name="gender" />
+      </div>
+      <br>
+      <div class="custom-select">
+        Destination:
+  <select name="destination">
+    <option value="0">Select one:</option>
+    <option value="1">Grenada, MS</option>
+    <option value="2">Birmingham, AL</option>
+    <option value="3">Salt Lake City</option>
+  </select>
+      </div>
+      <br>
+      <div class="dietRestriction">
+        Dietary Restrictions:
+        Vegan <input value="vegan" name="dietRes" type="checkbox"/> 
+        Vegetarian <input value="vegetarian" name="dietRes" type="checkbox"/>
+        Gluten Free <input value="gluten" name="dietRes" type="checkbox"/>
+        Lactose Free <input value="lactose"
+        name="dietRes" type="checkbox"/>
+      </div>
+      <br>
+      <button>Submit</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  height: 200px;
+  /* width: 800px; */
+  background-color: #5BC1E2;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+
+body {
+  margin: auto;
+  background-color: #a8eaf9;
+}
+
+.textbox {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
