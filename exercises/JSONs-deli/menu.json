@@ -1,0 +1,61 @@
+{
+  "appetizers": {
+      "appetizer1": {
+          "name": "caprese salad",
+          "ingredients": ["mozzarella", "tomatoes", "basil"],
+          "description": "an italian staple"
+      },
+
+      "appetizer2": {
+          "name": "salad nicois",
+          "ingredients": ["tuna", "springmix", "corn", "tomatoes"],
+          "description": "a french staple"
+      },
+
+      "appetizer3": {
+          "name": "broccoli cheddar soup",
+          "ingredients": ["broccoli", "cheddar", "half and half"],
+          "description": "warm and delicous"
+      }
+  },
+
+  "sandwiches": {
+      "sandwhich1": {
+          "name": "PB&J",
+          "ingredients": ["pork belly", "fig jam", "brioche bun"],
+          "description": "savory and sweet"
+      },
+
+      "sandwhich2": {
+          "name": "BLT",
+          "ingredients": ["bacon", "lettuce", "tomatoes"],
+          "description": "served on sourdough"
+      },
+
+      "sandwhich3": {
+          "name": "turkey avocado",
+          "ingredients": ["roasted turkey", "bacon", "avocado", "mayonaise"],
+          "description": "a house favorite!"
+      }
+  },
+
+  "desserts": {
+      "dessert1": {
+          "name": "creme brulee",
+          "ingredients": ["egg", "cream", "sugar"],
+          "description": "a french classic"
+      },
+
+      "dessert2": {
+          "name": "apple pie",
+          "ingredients": ["apples", "cinnamon", "sugar"],
+          "description": "an american classic"
+      },
+
+      "dessert3": {
+          "name": "gelato",
+          "ingredients": ["whole milk", "sugar", "eggs"],
+          "description": "italian icecream"
+      }
+  }
+}

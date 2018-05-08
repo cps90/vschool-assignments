@@ -1,0 +1,781 @@
+* {
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 415px) {
+
+  .header {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .header h1 {
+    margin-bottom: 3px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.2em;
+  }
+  .header h2 {
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 1.3em;
+    font-family: 'Poiret One', cursive;
+  }
+  .subheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar {
+    /* display: flex;
+    justify-content: flex-start; */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    border: 1px solid #ccc;
+  }
+
+  .navBar li {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+  }
+  .imageBox {
+    background-image: url("image_headerMobile.png");
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 45%;
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shopByRoom {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .armchair1 {
+  background-image: url("image_greenchair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .armchair2 {
+  background-image: url("image_brownchair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .armchair3 {
+  background-image: url("image_bluechair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa1 {
+  background-image: url("image_browncouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa2 {
+  background-image: url("image_graycouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa3 {
+  background-image: url("image_orangecouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed1 {
+  background-image: url("image_bed1.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .bed1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed2 {
+  background-image: url("image_bed2.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .bed2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed3 {
+  background-image: url("image_bed3.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .bed3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .aboutUsHeader {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .aboutUsBody {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ccc;
+    align-content: center;
+  }
+  a:link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 0px 0px;
+    vertical-align: middle;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+@media (min-width: 416px), (max-width: 899px) {
+
+  .header {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .header h1 {
+    margin-bottom: 3px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.2em;
+  }
+  .header h2 {
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 1.3em;
+    font-family: 'Poiret One', cursive;
+  }
+  .subheader {
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar {
+    /* display: flex;
+    justify-content: flex-start; */
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    border: 1px solid #ccc;
+  }
+
+  .navBar li {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+  }
+  .imageBox {
+    background-image: url("image_headerMobile.png");
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 45%;
+    height: inherit;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shopByRoom {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  .armchair1 {
+  background-image: url("image_greenchair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .armchair2 {
+  background-image: url("image_brownchair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .armchair3 {
+  background-image: url("image_bluechair.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .armchair3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa1 {
+  background-image: url("image_browncouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa2 {
+  background-image: url("image_graycouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .sofa3 {
+  background-image: url("image_orangecouch.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .sofa3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed1 {
+  background-image: url("image_bed1.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .bed1 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed2 {
+  background-image: url("image_bed2.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 7px;
+  }
+
+  .bed2 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .bed3 {
+  background-image: url("image_bed3.png");
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 75%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .bed3 p {
+    padding: 10px 0px 10px 20px;
+    background-color: rgb(204,204,204, .8);
+  }
+
+  .aboutUsHeader {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .aboutUsBody {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ccc;
+    align-content: center;
+  }
+  a:link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0px 20px 40px;
+    vertical-align: middle;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 900px) {
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+.header h1 {
+  margin-bottom: 3px;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+}
+.header h2 {
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 1.3em;
+  font-family: 'Poiret One', cursive;
+}
+.subheader {
+  display: flex;
+  flex-direction: column;
+}
+.navBar {
+  /* display: flex;
+  justify-content: flex-start; */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  border: 1px solid #ccc;
+}
+
+.navBar li {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+}
+.imageBox {
+  background-image: url("image_headerMobile.png");
+  vertical-align: middle;
+  width: 100%;
+  padding-top: 45%;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.shopByRoom {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.armchairs {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+.armchair1 {
+background-image: url("image_greenchair.jpg");
+/* display: inline-block; */
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/* background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.armchair1 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.armchair2 {
+background-image: url("image_brownchair.jpg");
+/* display: inline-block; */
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.armchair2 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.armchair3 {
+background-image: url("image_bluechair.jpg");
+/* display: inline-block; */
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.armchair3 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sofas {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.sofa1 {
+background-image: url("image_browncouch.jpg");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.sofa1 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sofa2 {
+background-image: url("image_graycouch.jpg");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.sofa2 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sofa3 {
+background-image: url("image_orangecouch.jpg");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.sofa3 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.beds {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bed1 {
+background-image: url("image_bed1.png");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.bed1 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bed2 {
+background-image: url("image_bed2.png");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.bed2 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bed3 {
+background-image: url("image_bed3.png");
+display: inline-block;
+vertical-align: middle;
+width: 33.3%;
+/* height: inherit; */
+padding-top: 35.5%;
+/*background-size: contain; */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px 7px 7px 0px;
+}
+
+.bed3 p {
+  padding: 10px 0px 10px 20px;
+  background-color: rgb(204,204,204, .8);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.aboutUsHeader {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.aboutUsBody {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ccc;
+  align-content: center;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 0px 20px 40px;
+  vertical-align: middle;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+}
