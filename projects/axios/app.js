@@ -10,11 +10,13 @@ function displayData(arr){
         arr.map(function(todo){
 
             var title = document.createElement('h1');
-            title.textContent = todo.title
+            title.textContent = todo.title;
+            title.className = "ttl";
 
             var checkbox = document.createElement("INPUT");
             checkbox.setAttribute("type", "checkbox");
             checkbox.id = "checkbox"
+            checkbox.className = "check"
 
                 var label = document.createElement('label')
                 label.htmlFor = "checkbox";
@@ -53,11 +55,18 @@ function displayData(arr){
         });
     }
 
-    document.getElementById("checkbox").addEventListener('change', function(e){
-        // e.preventDefault()
-        console.log(e);
-        title.style.textDecoration = "lineThrough";
-    })
+    var titles =  document.getElementsByClassName("ttl");
+    var checks =  document.getElementsByClassName("check");
+    function checkCheckboxes (checks, titles){
+        for(var i = 0; i < titles.length; i++) {
+            checks[i].addEventListener('change', function(e){
+                if(checks[i].checked){
+                    titles[i].style.textDecoration = "line-through";
+                }
+            })
+        }
+    }
+
 }
 
 document.addTodo.addEventListener('submit', function(e){
