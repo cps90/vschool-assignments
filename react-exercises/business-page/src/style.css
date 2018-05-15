@@ -1,0 +1,111 @@
+body {
+    height: 100%;
+}
+
+.headerContainer {
+    width: 100%;
+    margin: auto;
+}
+
+.navBar {
+    list-style-type: none;
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-color: lightgray;
+}
+
+.Produce {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em;
+    letter-spacing: 1.75px;
+    margin-right: auto;
+}
+
+.nav {
+    padding-top: 12px;
+    margin-left: auto;
+    font-family: 'Assistant', sans-serif;
+    
+}
+.learn {
+    padding-right: 30px;
+}
+
+.heroImage {
+    background-image: url("produce_1.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    /* width: 86.5%; */
+    margin: auto;
+    /* border: 1px solid gray; */
+}
+
+.contentTitle {
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+}
+
+.contentBody {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* width: 90%; */
+    /* margin: auto; */
+    font-family: 'Assistant', sans-serif;
+    /* padding-bottom: 20px; */
+}
+
+.imageContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+    grid-gap: 10px;
+
+}
+
+.food {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.one {
+    background-image: url('eggs.jpg')
+}
+
+.two {
+    background-image: url('fruit.jpg')
+}
+
+.three {
+    background-image: url('bread.jpg')
+}
+
+.footer {
+    height: 100px;
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-size: 1.5em;
+}

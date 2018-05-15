@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+.title {
+    text-align: center;
+    display: block;
+    color:#80BD9E;
+    padding: 20px;
+    font-size: 3.5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.show {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+    color:  rgb(52, 52, 52);
+
+}
+
+.title1 {
+    background-color: #F98866;
+}
+
+.title2 {
+    background-color: #FF420E;
+}
+
+.title3 {
+    background-color: #80BD9E;
+}
+
+.title4 {
+    background-color: #89DA59;
+}
+
+.title5 {
+    background-color: #89DA59;
+}
+
+.title6 {
+    background-color: #80BD9E;
+}
+
+.title7 {
+    background-color: #FF420E;
+}
+
+.title8 {
+    background-color: #F98866;
+}
