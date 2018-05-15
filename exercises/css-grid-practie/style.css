@@ -1,0 +1,67 @@
+
+.header {
+    background-color: #F98866;
+    grid-area: h;
+}
+
+.sidebar {
+    background-color: #80BD9E;
+    grid-area: s;
+}
+
+.content {
+    background-color: #80BD9E;
+    grid-area: c;
+}
+
+.sidebar2 {
+    background-color: #80BD9E;
+    grid-area: b;
+}
+
+.footer {
+    background-color: #F98866;
+    grid-area: f;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .container {
+        display: grid;
+        grid-gap: 5px;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px auto 40px 40px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+      display: grid;
+      height: 100%;
+      grid-gap: 5px;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 40px auto 40px 40px;
+      grid-template-areas:
+          "h h h h h"
+          "s c c c c"
+          "b b b b b"
+          "f f f f f";
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+      display: grid;
+      height: 100%;
+      grid-gap: 5px;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 40px auto 40px;
+      grid-template-areas:
+          "h h h h h"
+          "s c c c b"
+          "f f f f f";
+    }
+}
