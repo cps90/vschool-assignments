@@ -1,0 +1,17 @@
+[
+        {
+            "Name": "DeadPool",
+            "img": "http://ksassets.timeincuk.net/wp/uploads/sites/55/2018/05/Deadpool-920x584.jpg",
+            "Catchphrase": "Say the magic words, Fat Gandalf."
+        },
+        {
+            "Name": "WonderWoman",
+            "img": "https://i.ndtvimg.com/i/2017-06/wonder-woman-review_640x480_71496387846.jpg",
+            "Catchphrase": "I’m willing to fight for those who cannot fight for themselves."
+        },
+        {
+            "Name": "BlackPanther",
+            "img": "https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2015/10/marvel_black_panther_concept_art.jpg",
+            "Catchphrase": "Just because something works doesn’t mean it can’t be improved."
+        }
+]
