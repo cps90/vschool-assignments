@@ -1,0 +1,40 @@
+.mainContent {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.enemyContainer {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.enemyName {
+    background-color: rgb(30,144,255,0.7);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Lucida Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.headerTitle {
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+    color: red;
+    padding: 15px;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+}
+
+
