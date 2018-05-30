@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/*mobile*/
+
+.navbar {
+    border-bottom: 1px solid darkslategray;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 5px;
+    vertical-align: middle;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+}
+
+.links h1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 5px 0 5px 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.links a:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.links a:nth-child(3) {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.links a:nth-child(4) {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.links a:nth-child(5) {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.title {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+.subtitle {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+.headerLogo {
+    /* height: 200px;
+    width: 250px; */
+    margin-top: 15px;
+    margin-left: 13%;
+    margin-right: 7%;
+    width: 80%;
+}
+
+/*tablet*/
+@media screen and (min-width: 700px) {
+
+}
+
+
+/*desktop*/
+@media screen and (min-width: 1000px) {
+
+}
+
+

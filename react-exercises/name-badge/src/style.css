@@ -1,0 +1,28 @@
+.mainHeader {
+    background-image: url('./badgeHeader.jpg');
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.formContainer {
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(6, 30px);
+    grid-gap: 20px;
+    padding: 10px;
+
+}
+
+.badgeContainer {
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: repeat(6, 30px);
+    grid-gap: 20px;
+    padding: 10px;
+    list-style-type: none;
+}

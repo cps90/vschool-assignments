@@ -6,7 +6,7 @@ const App = () => {
     return (
         <div>
             <h1>Hello in Various Languages</h1>
-            <Greeting language='English'/>
+            <Greeting language='Italian'/>
         </div>
     );
 }
