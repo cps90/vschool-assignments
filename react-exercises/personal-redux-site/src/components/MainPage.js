@@ -28,7 +28,7 @@ class MainPage extends Component {
           );
       })
       return (
-          <div>
+          <div className="container">
             { mappedMainData }
           </div>
       );

@@ -54,7 +54,30 @@ export const getPoliticsData = () => {
     }
 }
 
-const reducer = (state = {}, action) => {
+export const getSearchData = (searchTerm) => {
+    return dispatch => {
+        axios.get(`https://vschool-cors.herokuapp.com?url=https://newsapi.org/v2/everything?q=${searchTerm}&apiKey=405b6a71cf33471386b73c0e287a7ee7`).then(response => {
+            dispatch({
+                type: "GET_SEARCH_DATA",
+                data: response.data
+            })
+        }).catch(err => {
+                console.log(err)
+        })
+    }
+}
+
+export const clearData = () => {
+    return {
+        type: "CLEAR_DATA"
+    }
+}
+const initialState = {
+    data: {
+        articles: []
+    }
+}
+const reducer = (state = initialState, action) => {
     switch(action.type){
         case "GET_MAIN_DATA":
             return {
@@ -71,7 +94,15 @@ const reducer = (state = {}, action) => {
         case "GET_POLITICS_DATA":
             return {
                 data: action.data
-            }           
+            }  
+        case "GET_SEARCH_DATA":
+            return {
+                data: action.data
+            }  
+        case "CLEAR_DATA":
+            return {
+                data: {articles: []}
+            }               
         default: 
             return state    
     }

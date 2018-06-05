@@ -1,65 +1,101 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #EAEAEA;
+}
 a {
     text-decoration: none;
     color: black;
 }
-/*mobile*/
 
-.navbar {
-    border-bottom: 1px solid darkslategray;
+a:hover {
+    text-decoration: underline;
 }
 
-.links {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    padding: 5px;
-    vertical-align: middle;
+.searchBar {
+    padding: 20px 0 60px 0;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.searchBar input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    
+}
+.searchBar button {
+    display: block;
+    margin: 20px auto 40px auto;
+    
+}
+
+.searchDesc {
+    text-align: center;
     font-family: 'Josefin Slab', serif;
-    text-transform: uppercase;
+
 }
 
-.links h1 {
+/*mobile*/
+.navWide {
+    display: none;
+}
+
+.navNarrow {
+    display: grid;
+    grid-template-columns: repeat (6, 1fr);
+    background-color: white;
+}    
+
+.navNarrow h1 {
     grid-column-start: 1;
     grid-column-end: 2;
+    margin: 0;
     display: flex;
     align-items: center;
     margin: 0px;
     padding: 5px 0 5px 15px;
     font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+
 }
 
-.links a:nth-child(2) {
+.navNarrow i {
     grid-column-start: 5;
     grid-column-end: 6;
     display: flex;
     align-items: center;
-    padding: 5px;
+    justify-content: flex-end;
+    
 }
 
-.links a:nth-child(3) {
+.navNarrow button {
     grid-column-start: 6;
     grid-column-end: 7;
-    display: flex;
-    align-items: center;
-    padding: 5px;
+    padding: 0;
 }
 
-.links a:nth-child(4) {
-    grid-column-start: 7;
-    grid-column-end: 8;
-    display: flex;
-    align-items: center;
-    padding: 5px;
+.home {
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+}
+.business {
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
 }
 
-.links a:nth-child(5) {
-    grid-column-start: 8;
-    grid-column-end: 9;
-    display: flex;
-    align-items: center;
-    padding: 5px;
+.sports {
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+}
+
+.politics {
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
 }
 
 .title {
@@ -71,27 +107,281 @@ a {
 .subtitle {
     font-family: 'Josefin Slab', serif;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    border-bottom: 1px solid darkslategray;
+    color: white;
+    font-size: 14px;
+    font-style: italic
+}
+.header {
+    background-color: black;
 }
 
-.headerLogo {
-    /* height: 200px;
-    width: 250px; */
-    margin-top: 15px;
-    margin-left: 13%;
-    margin-right: 7%;
-    width: 80%;
+/* .headerLogo {
+    margin: 50px 85px 5px 90px;
+    width: 200px;
+} */
+
+.headerTitle {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+    padding: 15px 0 0 0; 
 }
+
+.articleContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid darkslategray;
+    background-color: white;
+    /* grid-gap: 10px; */
+}
+
+
+.articleTitle {
+    font-size: 20px;
+    font-weight: bolder; 
+    display: block;
+    /* margin: 0; */
+    margin: 20px 40px 0 20px;
+}
+
+
+.articleDesc {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 5px 10px 5px 20px;
+
+}
+
+.articleSource {
+    margin: 0;
+    padding: 5px 0 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.articleImage {
+    display: block;
+    width: 90%;
+    padding-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+
+
+
 
 /*tablet*/
 @media screen and (min-width: 700px) {
+    .navNarrow {
+        display: none;
+    }
 
+    .navWide {
+        display: none;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        padding: 5px;
+        vertical-align: middle;
+        font-family: 'Josefin Slab', serif;
+        background-color: white;
+        
+    }
+    
+    .navWide h1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        padding: 5px 0 5px 15px;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2.5em;
+    }
+    
+    .home {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .business {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .sports {
+        grid-column-start: 7;
+        grid-column-end: 8;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .politics {
+        grid-column-start: 8;
+        grid-column-end: 9;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+
+    .navWide i {
+        grid-column-start: 9;
+        grid-column-end: 10;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
 }
+
+h1 span {
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    padding-top: 18px;
+}
+
+
 
 
 /*desktop*/
 @media screen and (min-width: 1000px) {
+    .navNarrow {
+        display: none;
+    }
+    .navWide {
+        display: none;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        padding: 5px;
+        vertical-align: middle;
+        font-family: 'Josefin Slab', serif;
+        width: 900px;
+        margin: auto;
+        background-color: white;
+    }
+    
+    .header {
+        width: 900px;
+        margin: auto;
+    }
+
+    .footer {
+        width: 900px;
+        margin: auto;
+    }
+    
+    .navWide h1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        padding: 5px 0 5px 15px;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2.5em;
+    }
+    
+    .home {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .business {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .sports {
+        grid-column-start: 7;
+        grid-column-end: 8;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    
+    .politics {
+        grid-column-start: 8;
+        grid-column-end: 9;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+
+    .navWide i {
+        grid-column-start: 9;
+        grid-column-end: 10;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .articleContainer {
+        display: grid;
+        grid-template-columns: 2; 
+        grid-template-rows: 3;
+        width: 900px;
+        margin: auto;
+    }
+
+    .articleImage {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .articleTitle {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .articleDesc {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .articleSource {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
 
 }
 
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Josefin Slab', serif;
+    text-align: end;
+}
 

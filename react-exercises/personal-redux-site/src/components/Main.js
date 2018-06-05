@@ -2,10 +2,12 @@ import React from 'react';
 
 function Main(props) {
     return (
-        <div>
-            <h2>{props.title}</h2>
-            <p>{props.description}</p>
-            <p>{props.source}</p>
+        <div className="articleContainer">
+                <img className="articleImage" src={props.image} alt=""/>
+                <a className="articleTitle" href={ props.url } target="_blank">{props.title} </a>
+                <p className="articleDesc">{props.description}</p>
+                <p className="articleSource">{props.source}</p>
+                
         </div>
     )
 }

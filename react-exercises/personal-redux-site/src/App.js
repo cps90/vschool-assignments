@@ -7,6 +7,7 @@ import Business from './components/Business';
 import Politics from './components/Politics';
 import Sports from './components/Sports';
 import Navbar from './components/Navbar';
+import Search from './components/Search'
 
 function App()  {
 
@@ -19,6 +20,7 @@ function App()  {
             <Route path="/business" component={ Business } />
             <Route path="/sports" component={ Sports } />
             <Route path="/politics" component={ Politics } />
+            <Route path="/search" component={ Search } />
           </Switch>
           <Footer />
         </div>
