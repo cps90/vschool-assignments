@@ -14,7 +14,7 @@ const bounties = [
     },
     {
         name: "Spencer",
-        lastName: "Bachman",
+        lastName: "Backman",
         living: true,
         bountyAmount: 300,
         type: "Jedi",
