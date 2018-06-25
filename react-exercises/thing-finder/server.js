@@ -15,9 +15,20 @@ const pets = [
 ]
 
 app.get(('/pets'), (req, res) => {
-    res.send(pets);
+    if (req.query) {
+        const query = req.query;
+        const filterData = (query, pets) => {
+            return pets.filter(entry => Object.keys(query).every(key => entry[key] === query[key])
+        )}
+        res.send(filterData(query, pets)); 
+    }
+    else {
+        res.send(pets);
+    }    
 })
+
 
 app.listen(5000, () => {
     console.log("server is listening on port 5000")
 });
+

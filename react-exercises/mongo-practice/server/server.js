@@ -1,0 +1,19 @@
+const express = require('express')
+const app = express()
+const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
+const morgan = require('morgan')
+
+app.use(bodyParser.json())
+app.use(morgan('dev'))
+
+mongoose.connect('mongodb://localhost/taskmanager', (err) => {
+    if (err) throw err
+    console.log('Connected to database')
+})
+
+app.use('/todo', require('./routes/todo'))
+
+app.listen(5858, () => {
+    console.log('Server is running on port 5858')
+})
